@@ -100,9 +100,9 @@
             </div> -->
             <div>
                 <label for="desc">Description</label><br>
-                <textarea name="description" id="desc"></textarea>
+                <textarea name="decription" id="desc"></textarea>
             </div>
-            @error("description")
+            @error("decription")
             <span>Description please!</span>
             @enderror
             <div>

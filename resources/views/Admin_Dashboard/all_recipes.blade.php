@@ -130,7 +130,7 @@
             @foreach ($recipes as $recipe )
             <div class="recipe">
                 <h3>{{ $recipe['name'] }}</h3>
-                <p>{{ $recipe['description'] }}</p>
+                <p>{{ $recipe['decription'] }}</p>
                 <form action="/Admin_Dashboard/{{ $recipe['id'] }}" method="post">
                     @csrf
                     @method('delete')

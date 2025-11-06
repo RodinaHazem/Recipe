@@ -24,7 +24,7 @@ class RecipeController extends Controller
     {
         $validated = $request->validate([
             'name'  => 'required|string|max:255',
-            'description' => 'required|max:255',
+            'decription' => 'required|max:255',
 
         ]);
 
@@ -54,7 +54,7 @@ class RecipeController extends Controller
         $recipe = Recipe::find($id);
         $recipe->update([
             'name' => $request->name,
-            'description' => $request->decription
+            'decription' => $request->description
         ]);
         return redirect()->route('Admin_Dashboard.index');
     }

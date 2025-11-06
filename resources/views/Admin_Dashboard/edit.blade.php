@@ -102,7 +102,7 @@
             <div>
 
                 <label for="desc">Description</label>
-                <textarea name="description" id="desc">{{ $recipe['description'] }}</textarea>
+                <textarea name="decription" id="desc">{{ $recipe['decription'] }}</textarea>
             </div>
             <input type="submit" value="edit new one">
 
