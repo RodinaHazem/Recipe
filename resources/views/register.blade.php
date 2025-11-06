@@ -131,7 +131,7 @@
 
 
 
-        <form action="{{ route('register') }}" method="POST">
+        <form action="{{ route('register.submit') }}" method="POST">
             @csrf
             <h3>Register</h3>
             <div>

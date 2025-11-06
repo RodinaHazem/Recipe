@@ -131,7 +131,7 @@
     @endif
     <header>
 
-        <form action="{{ route('login') }}" method="POST">
+        <form action="{{ route('login.submit') }}" method="POST">
             <h3>Login</h3>
             @csrf
             <div>
