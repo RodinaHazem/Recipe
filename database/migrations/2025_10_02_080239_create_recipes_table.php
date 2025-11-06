@@ -12,7 +12,7 @@ return new class extends Migration
         Schema::create('recipes', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('description');
+            $table->string('decription');
             $table->timestamps();
         });
     }

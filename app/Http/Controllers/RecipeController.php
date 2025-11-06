@@ -54,7 +54,7 @@ class RecipeController extends Controller
         $recipe = Recipe::find($id);
         $recipe->update([
             'name' => $request->name,
-            'description' => $request->description
+            'description' => $request->decription
         ]);
         return redirect()->route('Admin_Dashboard.index');
     }
