@@ -12,19 +12,19 @@
             box-sizing: border-box;
             font-family: cursive;
         }
+        body{
 
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imgs/rody.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:fixed;
+   }
         body::-webkit-scrollbar {
                 display: none;
             }
 
 
         header {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imgs/rody.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: scroll;
-            height: 100vh;
-
             display: flex;
             align-items: center;
             justify-content: center;
