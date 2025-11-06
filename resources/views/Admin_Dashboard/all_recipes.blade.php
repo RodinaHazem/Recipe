@@ -23,7 +23,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: scroll;
-            /* height: 100vh; */
+            height: 100vh;
 
             display: flex;
             align-items: center;
